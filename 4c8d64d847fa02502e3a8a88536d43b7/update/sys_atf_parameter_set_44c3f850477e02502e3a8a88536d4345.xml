@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_parameter_set">
+    <sys_atf_parameter_set action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Table Definition = {&#13;
+        "tableName": "u_servicenow_table_test_definition",&#13;
+        "tableLabel":"ServiceNow Table Test Definition",&#13;
+        "tableExtension":"sys_import_set_row",&#13;
+        "fieldList":[&#13;
+            {&#13;
+                "usePrefix":true,&#13;
+                "name":"u_record_import_error",&#13;
+                "label":"Record Import Error",&#13;
+                "type":"string",&#13;
+                "maxLength":"4000"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablecount",&#13;
+                "label":"snTableCount",&#13;
+                "type":"integer",&#13;
+                "maxLength": "40"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablename",&#13;
+                "label":"snTableName",&#13;
+                "type":"string",&#13;
+                "maxLength": "80"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablebatch",&#13;
+                "label":"snTableBatch",&#13;
+                "type":"string",&#13;
+                "maxLength": "40"&#13;
+            }&#13;
+        ]&#13;
+    }</description>
+        <order>1</order>
+        <parameters/>
+        <sys_class_name>sys_atf_parameter_set</sys_class_name>
+        <sys_created_by>larry.daponte</sys_created_by>
+        <sys_created_on>2024-06-10 19:45:32</sys_created_on>
+        <sys_id>44c3f850477e02502e3a8a88536d4345</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Table Creation Utility" source="4c8d64d847fa02502e3a8a88536d43b7">4c8d64d847fa02502e3a8a88536d43b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Table Creation Utility">4c8d64d847fa02502e3a8a88536d43b7</sys_scope>
+        <sys_update_name>sys_atf_parameter_set_44c3f850477e02502e3a8a88536d4345</sys_update_name>
+        <sys_updated_by>larry.daponte</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:45:32</sys_updated_on>
+        <test display_value="Test Table Creation API">2143bc10477e02502e3a8a88536d4300</test>
+    </sys_atf_parameter_set>
+    <sys_variable_value action="delete_multiple" query="document_key=44c3f850477e02502e3a8a88536d4345"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_parameter_set</document>
+        <document_key>44c3f850477e02502e3a8a88536d4345</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>larry.daponte</sys_created_by>
+        <sys_created_on>2024-06-10 19:45:32</sys_created_on>
+        <sys_id>bce3fc50477e02502e3a8a88536d4301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>larry.daponte</sys_updated_by>
+        <sys_updated_on>2024-06-10 19:45:32</sys_updated_on>
+        <value>{&#13;
+        "tableName": "u_servicenow_table_test_definition",&#13;
+        "tableLabel":"ServiceNow Table Test Definition",&#13;
+        "tableExtension":"sys_import_set_row",&#13;
+        "fieldList":[&#13;
+            {&#13;
+                "usePrefix":true,&#13;
+                "name":"u_record_import_error",&#13;
+                "label":"Record Import Error",&#13;
+                "type":"string",&#13;
+                "maxLength":"4000"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablecount",&#13;
+                "label":"snTableCount",&#13;
+                "type":"integer",&#13;
+                "maxLength": "40"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablename",&#13;
+                "label":"snTableName",&#13;
+                "type":"string",&#13;
+                "maxLength": "80"&#13;
+            },{&#13;
+                "usePrefix":true,&#13;
+                "name":"u_sntablebatch",&#13;
+                "label":"snTableBatch",&#13;
+                "type":"string",&#13;
+                "maxLength": "40"&#13;
+            }&#13;
+        ]&#13;
+    }</value>
+        <variable display_value="Table Definition">74733050477e02502e3a8a88536d43c9</variable>
+    </sys_variable_value>
+</record_update>
